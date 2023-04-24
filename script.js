@@ -171,10 +171,10 @@ function addsec() {
             head.innerHTML = ('<div><br><br><span><input type="checkbox" class="input-checkbox"></span><span class="title" contenteditable="true">NEW SECTION</span><br><br><div contenteditable="true">This is the description part of your new section. Try to stay within limit and write something which has less than 400 characters. The spaces and symbols you use will also be included so use them for an indentation effect.</div></div>');
         }
 
-        maxNewSection = maxNewSection + 4;
+        maxNewSection = maxNewSection + 1;
     }
     else {
-        alert("Atmost 4 NEW SECTION Can Be Added!")
+        alert("Atmost 1 NEW SECTION Can Be Added!")
 
     }
     saveresume();
